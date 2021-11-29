@@ -1,3 +1,8 @@
+// googleSearchApiKey = AIzaSyBVpEkmXFRFPLuNtirar23cbSNCcOD-2gg
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
