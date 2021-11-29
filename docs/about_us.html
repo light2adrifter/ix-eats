@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Orlando Munchies| About Us</title>
+    <title>Orlando Munchies</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-
+   
         </head>
 
         <body>
@@ -27,78 +27,59 @@
               <div class="navbar-start">
                 <a class="navbar-item" href="./index.html">Home</a>
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link" href="#">About Us</a>
+                  <a class="navbar-link" href="# ">About Us</a>
                   <div class="navbar-dropdown is-boxed">
                     <a class="navbar-item" href="#">Our Team</a>
                     
                   </div>
                 </div>
               </div>
-        
-              
-
-                    <div class = "field  margin-top mt-1 mr-2">
-                      <div class = "control">
-                         <input class = "input is-warning" type = "text" placeholder = "Enter your input">
-                      </div>
-                   </div>
-                   </div>
-                   <br>
-
-                    
-                  </div>
+            </div>
                 </div>
               </div>
             </div>
           </nav>
           
-        <!-- Hero class start -->
-        
-          <div class="hero is-fullheight  has-background">
-            <div class="hero-body">
-              <div class="container mt-5">
-                <h1 class="title">Orlando Munchies</h1>
-                <h2 class="subtitle">Best app to find budget restaurants on the Orlando area.
-                </h2>
-                <figure class="bg-img">
-                    <img src="./assets/img/nelson.png">
-                  </figure>
-                  <h3 class= "title"> About Nelson 
-                  </h3>
+          <div class="container">
+            <div class="section">
+              <div class="columns">
+                <div class="column has-text-centered">
+                  <h1 class="title" style="color: ghostwhite;">Nelson J Marrero</h1><br>
+                </div>
               </div>
-            </div>
-            
-<!-- Restaurants recommendations-->
-<div id="map"></div>
-
-        <div class="box cta">
-            <p class="has-text-centered">
-              <span class="tag is-primary">New</span> Top four Orlando Munchies recommendations.
-            </p>
-        </div>
-        <!-- Restaurants -->
-        <!-- <section class="container is-mobile">
-            <div class="columns features">
-                <div class="column is-4 modal-button" data-target="modal-card">
-                  <div class="card is-shady">
+              <div id="app" class="row columns is-multiline">
+                <div v-for="card in cardData" key="card.id" class="column is-4">
+                  <div class="card large">
                     <div class="card-image">
-                      <figure class="image is-4by3">
-                        <img src="./assets/img/mrpotato.png" alt="Placeholder image">
-                        </figure>
+                      <figure class="image is-16by9">
+                        <img src="./assets/img/nelson.png" alt="Nelson M">
+                      </figure>
                     </div>
                     <div class="card-content">
-                        <div class="content">
-                            <h4>Mrs. Potato</h4>
-                            <p>Brazilian-American fusion flavors are featured in this restaurant, along with cakes & desserts.</p>
-                            <span class="button is-link modal-button">About</span>
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img src="./assets/img/nelson.png" alt="Image">
+                          </figure>
                         </div>
+                        <div class="media-content">
+                          <p class="title is-4 no-padding">Nelson J Marrero</p>
+                          <p>
+                            <span class="title is-6">
+                              <a :href=`http:> icon-twitter </a> </span> </p>
+                          <p class="subtitle is-6">About Nelson J Marrero</p>
+                        </div>
+                      </div>
+                      <div class="content">
+                        facebook
+                        <div class="background-icon"><span class="icon-twitter"></span></div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                </div>
-  </div> -->
-      
-       
-     </section>
+              </div>
+            </div>
+          </div>
   <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -108,39 +89,6 @@
       </footer>
       
 
-   <!--  ===============
-    HERE BE MODALS
-    ===============  -->
-    <!-- 3dFlipVertical card tiny -->
-    <!-- <div id="modal-card" class="modal modal-fx-3dSlit">
-        <div class="modal-background"></div>
-        <div class="modal-content is-tiny">
-          content
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3"> -->
-                <!-- <div id="map"></div> -->
-                <!-- <img src="./assets/img/mr potato-map.png" alt="linda barret avatar">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="./assets/img/mrpotato.png" alt="Mr-Potato">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">Mr. Potato</p>
-                  <p class="subtitle is-6">Orlando, Florida</p>
-                </div>
-              </div>
-              <p class="content"> Text Here </p>
-            </div>
-              
-            </div>
-          </div>
-          end content -->
 
           
          

@@ -44,3 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     map.setStreetView(panorama);
   }
   
+  var app = new Vue({
+    el: '#app',
+    data: {
+      cardData: cardsData
+    }
+  })
