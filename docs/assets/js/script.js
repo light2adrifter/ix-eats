@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-  let map;
+  // let map;
 
-  function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: 28.5384, lng: 81.3789 },
-      zoom: 8,
-    });
-  }
+  // function initMap() {
+  //   map = new google.maps.Map(document.getElementById("map"), {
+  //     center: { lat: 28.5384, lng: 81.3789 },
+  //     zoom: 8,
+  //   });
+  // }
