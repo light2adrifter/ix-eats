@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orlando Munchies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+   
+        </head>
+
+        <body>
+        <!-- navbar start -->
+          <nav class="navbar  is-fixed-top is-warning">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                Orlando Munchies
+            </a>
+              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+        
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" href="./index.html">Home</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link" href="# ">About Us</a>
+                  <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item" href="#">Our Team</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+          <div class="container">
+            <div class="section">
+              <div class="columns">
+                <div class="column has-text-centered">
+                  <h1 class="title" style="color: ghostwhite;"></h1><br>
+                </div>
+              </div>
+              <div id="app" class="row columns is-multiline">
+                <div v-for="card in cardData" key="card.id" class="column is-4">
+                  <div class="card large">
+                    <div class="card-image">
+                      <figure class="image is-16by9">
+                        <img src="./assets/img/nelson.png" alt="Nelson M">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img src="./assets/img/nelson.png" alt="Image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="title is-4 no-padding">Nelson J Marrero</p>
+                          <p>
+                            <span class="title is-6">
+                              <a :href= "https://twitter.com/">icon-twitter </a> </span> </p>
+                          <p class="subtitle is-6">About Nelson J Marrero</p>
+                        </div>
+                      </div>
+                      <div class="content">
+                        facebook
+                        <div class="background-icon"><span class="icon-twitter"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+  <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Group IX-eats </strong> / Copyright Content goes here...
+          </p>
+        </div>
+      </footer>
+      
+
+
+          
+         
+     
+
+
+
+       
+    
+          <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+          <script src="./assets/js/script.js"></script>
+          <script
+          src="https://maps.googleapis.com/maps/api/js?key==initialize&v=weekly"
+          async
+        ></script>
+       
+        </body>
+       
+        
+        </html>
