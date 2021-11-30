@@ -1,8 +1,12 @@
 // googleSearchApiKey = AIzaSyBVpEkmXFRFPLuNtirar23cbSNCcOD-2gg
 
 // googlesearch terminal Copy the following code, and paste it into a <div> element in your site's <body> section, where you want both of the search box and the search results to render.
-{/* <script async src="https://cse.google.com/cse.js?cx=6f50efadbd4e8bad7"></script> */}
-{/* <div class="gcse-search"></div> */}
+{/* <script async src="https://cse.google.com/cse.js?cx=6f50efadbd4e8bad7"></script>
+<div class="gcse-search"></div> */}
+// search engine id 6f50efadbd4e8bad7
+
+var searchApiKey = "AIzaSyBVpEkmXFRFPLuNtirar23cbSNCcOD-2gg";
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -31,29 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-  function initialize() {
-    const fenway = { lat: 42.345573, lng: -71.098326 };
-    const map = new google.maps.Map(document.getElementById("map"), {
-      center: fenway,
-      zoom: 14,
+  let map;
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 28.5384, lng: 81.3789 },
+      zoom: 8,
     });
-    const panorama = new google.maps.StreetViewPanorama(
-      document.getElementById("pano"),
-      {
-        position: fenway,
-        pov: {
-          heading: 34,
-          pitch: 10,
-        },
-      }
-    );
-  
-    map.setStreetView(panorama);
   }
-  
-  var app = new Vue({
-    el: '#app',
-    data: {
-      cardData: cardsData
-    }
-  })
