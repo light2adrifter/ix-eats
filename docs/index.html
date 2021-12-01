@@ -1,177 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Orlando Munchies</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="dist/css/modal-fx.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orlando Munchies</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="dist/css/modal-fx.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet"
-/>
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
-<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
-type="text/css"
-/>
-
-
-        </head>
-
-        <body>
-          
-         
-        <!-- navbar start -->
-          <nav class="navbar  is-fixed-top is-warning">
-            <div class="navbar-brand ">
-              <a class="navbar-item">
-                Orlando Munchies
-            </a>
-              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-        
-            <div id="navbarExampleTransparentExample" class="navbar-menu">
-              <div class="navbar-start ">
-                <a class="navbar-item " href="#">Home</a>
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link" href="# ">About Us</a>
-                  <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="./about_us.html">Our Team</a>
-                    
-                    
-                  </div>
-                </div>
-              </div>
-        
-
-                    <!-- <div class = "field  margin-top mt-1 mr-2">
-                      <div class = "control">
-                         <input class = "input is-warning" type = "text" placeholder = "Search Map">
-                      </div>
-                   </div> -->
-                   </div>
-                   <br>
-
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-          
-        <!-- Hero class start -->
-       
-          <div class="hero is-fullheight  has-background">
-            <div class="hero-body">
-              <div class="container mt-5">
-                <h1 class="title">Orlando Munchies</h1>
-                <h2 class="subtitle">Best app to find budget restaurants on the Orlando area.
-                </h2>
-                <figure class="bg-img">
-                    <img src="./assets/img/shawnanggg-nmpW_WwwVSc-unsplash.jpg">
-                  </figure>
-                  <h3 class="Copyright">  <a href="https://unsplash.com/@shawnanggg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">@shawnanggg</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-                  </h3>
-              </div>
-            </div>
-
-          
-            
-<!-- Restaurants recommendations-->
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+  <script
+    src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+  <link rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+    type="text/css" />
 
 
-        <div class="box cta">
-            <p class="has-text-centered">
-              <span class="tag is-primary">New</span>  Orlando Munchies recommendations.
-            </p>
+</head>
+
+<body>
+
+
+  <!-- navbar start -->
+  <nav class="navbar  is-fixed-top is-warning">
+    <div class="navbar-brand ">
+      <a class="navbar-item">
+        Orlando Munchies
+      </a>
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start ">
+        <a class="navbar-item " href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="# ">About Us</a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="./about_us.html">Our Team</a>
+
+
+          </div>
         </div>
-        
+      </div>
 
-        <!-- Restaurants -->
+    </div>
+    <br>
 
-        
-     
-       <section class="container">
 
-       <!-- Mr potato -->
-        <div class="columns features">
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image">
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4401376277733!2d-81.46270218435987!3d28.49640269697857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77efc7f1cb359%3A0x267db1a8579c9ff2!2sMrs.%20Potato%20Restaurant!5e0!3m2!1sen!2sus!4v1638317561193!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-               </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </nav>
 
-              <div class="card-content">
-                <div class="content">
-                  <h4> Mr. Potato</h4>
-                  <p> Oaks Shopping Center ,4550  S. Kirkman Rd, Orlando,FL 32835 </p>
-                  <span class="button is-link modal-button" data-target="Mr_potato">About</span>
-                </div>
+  <!-- Hero class start -->
+
+  <div class="hero is-fullheight  has-background">
+    <div class="hero-body">
+      <div class="container mt-5">
+        <h1 class="title">Orlando Munchies</h1>
+        <h2 class="subtitle">Best app to find budget restaurants on the Orlando area.
+        </h2>
+        <figure class="bg-img">
+          <img src="./assets/img/shawnanggg-nmpW_WwwVSc-unsplash.jpg">
+        </figure>
+        <h3 class="Copyright"> <a
+            href="https://unsplash.com/@shawnanggg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">@shawnanggg</a>
+          on <a
+            href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </h3>
+      </div>
+    </div>
+
+
+
+    <!-- Restaurants recommendations-->
+
+
+    <div class="box cta">
+      <p class="has-text-centered">
+        <span class="tag is-primary">New</span> Orlando Munchies recommendations.
+      </p>
+    </div>
+
+
+    <!-- Restaurants -->
+
+
+
+    <section class="container">
+
+      <!-- Mr potato -->
+      <div class="columns features">
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4401376277733!2d-81.46270218435987!3d28.49640269697857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77efc7f1cb359%3A0x267db1a8579c9ff2!2sMrs.%20Potato%20Restaurant!5e0!3m2!1sen!2sus!4v1638317561193!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="card-content">
+              <div class="content">
+                <h4> Mr. Potato</h4>
+                <p> Oaks Shopping Center ,4550 S. Kirkman Rd, Orlando,FL 32835 </p>
+                <span class="button is-link modal-button" data-target="Mr_potato">About</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Holy Grain Coffee -->
-          <div class="column is-4">
-            <div class="card is-shady">
-              <div class="card-image">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28052.146127088938!2d-81.47557514367682!3d28.494050999814966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f2a35a61293%3A0xfc29c5ad3e68d147!2sHoly%20Grain%20Coffee%20Shop!5e0!3m2!1sen!2sus!4v1638325350398!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-             
-              </div>
-              <div class="card-content">
-                <div class="content">
-                  <h4>Holy Grain Coffee</h4>
-                  <p>Windermere BC, 6735 Conroy Rd STE 109, Orlando, FL 32835 </p>
-                  <span class="button is-link modal-button" data-target="Holy_coffee">About</span>
-                </div>
+        <!-- Holy Grain Coffee -->
+        <div class="column is-4">
+          <div class="card is-shady">
+            <div class="card-image">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28052.146127088938!2d-81.47557514367682!3d28.494050999814966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f2a35a61293%3A0xfc29c5ad3e68d147!2sHoly%20Grain%20Coffee%20Shop!5e0!3m2!1sen!2sus!4v1638325350398!5m2!1sen!2sus"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h4>Holy Grain Coffee</h4>
+                <p>Windermere BC, 6735 Conroy Rd STE 109, Orlando, FL 32835 </p>
+                <span class="button is-link modal-button" data-target="Holy_coffee">About</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- MAP -->
-            <div class="column  is-half ">
-              <div id="map"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <!-- MAP -->
+        <div class="column  is-half ">
+          <div id="map"></div>
+        </div>
+      </div>
+  </div>
+  </div>
 
-          
-     </section>
+
+  </section>
   <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Group IX-eats </strong> / Copyright 2021
-          </p>
-        </div>
-      </footer>
-      
+    <div class="content has-text-centered">
+      <p>
+        <strong>Group IX-eats </strong> / Copyright 2021
+      </p>
+    </div>
+  </footer>
 
-   <!--  ===============
+
+  <!--  ===============
     HERE BE MODALS
     ===============  -->
-     <!-- 3dFlipVertical card tiny [butterfly] -->
-     <div id="Mr_potato" class="modal modal-fx-3dSlit">
-      <div class="modal-background"></div>
-      <div class="modal-content is-tiny">
-        <!-- content -->
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="./assets/img/mrpotato.png" alt="Mr. Potato">
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-               
+  <!-- 3dFlipVertical card tiny [butterfly] -->
+  <div id="Mr_potato" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="./assets/img/mrpotato.png" alt="Mr. Potato">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+
               <div class="media-content">
                 <p class="title is-4">Mr.Potato</p>
                 <p class="subtitle is-6">Orlando, FL</p>
@@ -179,8 +181,8 @@ type="text/css"
 
             </div>
             <div class="content">
-       Brazilian-American fusion flavors are featured in this restaurant, along with cakes & desserts.
-              </div>
+              Brazilian-American fusion flavors are featured in this restaurant, along with cakes & desserts.
+            </div>
           </div>
         </div>
         <!-- end content -->
@@ -191,44 +193,44 @@ type="text/css"
 
 
 
-        <div id="Holy_coffee" class="modal modal-fx-3dSlit">
-          <div class="modal-background"></div>
-          <div class="modal-content is-tiny">
-            <!-- content -->
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="./assets/img/Holy Grain Coffee.png" alt="Holy Grain Coffee">
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                   
-                  <div class="media-content">
-                    <p class="title is-4">Mr.Potato</p>
-                    <p class="subtitle is-6">Orlando, FL</p>
-                  </div>
-                </div>
-                <div class="content">
-          Cozy, contemporary coffee bar with gourmet sandwiches & salads in comfy surrounds.
-                  </div>
+  <div id="Holy_coffee" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="./assets/img/Holy Grain Coffee.png" alt="Holy Grain Coffee">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+
+              <div class="media-content">
+                <p class="title is-4">Mr.Potato</p>
+                <p class="subtitle is-6">Orlando, FL</p>
               </div>
             </div>
-            <!-- end content -->
+            <div class="content">
+              Cozy, contemporary coffee bar with gourmet sandwiches & salads in comfy surrounds.
+            </div>
           </div>
-          <button class="modal-close is-large" aria-label="close"></button>
         </div>
-  
-        <!-- <script type="text/javascript" src="dist/js/modal-fx.min.js"></script> -->
-       <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
-          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-          <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
-          <script src="./assets/js/script.js"></script>
-          <script src="./assets/js/maps.js"></script>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
 
-       
-        </body>
-       
-        
-        </html>
+    <!-- <script type="text/javascript" src="dist/js/modal-fx.min.js"></script> -->
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/maps.js"></script>
+
+
+</body>
+
+
+</html>
