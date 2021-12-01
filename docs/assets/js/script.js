@@ -1,6 +1,3 @@
-// googleSearchApiKey = AIzaSyBVpEkmXFRFPLuNtirar23cbSNCcOD-2gg
-
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -29,11 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-  let map;
 
-  function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: 28.5384, lng: 81.3789 },
-      zoom: 8,
-    });
-  }
+
+
+ 
