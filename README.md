@@ -18,7 +18,7 @@ App which allows the user to search for restaurants in the Orlando area
 * Bulma
 
 ## Web Page
-![Orlando Munchies](./assets/img/screenshotreadme.png)
+![Orlando Munchies](./docs/assets/img/screenshotreadme.png)
 [Deployed Application](insertpageurlhere)
 
 ## Contributions
