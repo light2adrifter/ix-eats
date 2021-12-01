@@ -19,10 +19,12 @@ App which allows the user to search for restaurants in the Orlando area
 
 ## Web Page
 ![Orlando Munchies](./docs/assets/img/screenshotreadme.png)
-[Deployed Application](insertpageurlhere)
+
+[Deployed Application](https://light2adrifter.github.io/ix-eats/)
 
 ## Contributions
 * Alvaro Calvo
 * Nelson Marrero
 * Jonathan Moser
 * NaKiya Russell
+
