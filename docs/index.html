@@ -7,10 +7,25 @@
     <title>Orlando Munchies</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="dist/css/modal-fx.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<link
+href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+rel="stylesheet"
+/>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+<link
+rel="stylesheet"
+href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+type="text/css"
+/>
+
 
         </head>
 
         <body>
+          
          
         <!-- navbar start -->
           <nav class="navbar  is-fixed-top is-warning">
@@ -41,7 +56,7 @@
 
                     <div class = "field  margin-top mt-1 mr-2">
                       <div class = "control">
-                         <input class = "input is-warning" type = "text" placeholder = "Enter your input">
+                         <input class = "input is-warning" type = "text" placeholder = "Search Map">
                       </div>
                    </div>
                    </div>
@@ -83,8 +98,13 @@
         
 
         <!-- Restaurants -->
+
+        
      
        <section class="container">
+       
+
+        
         <div class="columns features">
           <div class="column is-4">
             <div class="card is-shady">
@@ -118,6 +138,23 @@
               </div>
             </div>
           </div>
+
+          <div class="columns">
+            <div class="column is three quarter">
+              <div class="card is-shady">
+                <div class="card-image">
+                  
+                  <div id="map"></div>
+  
+                <div class="card-content">
+                  <div class="content"> 
+                    <h4> Mr. Potato</h4>
+                    <p> Oaks Shopping Center ,4550  S. Kirkman Rd, Orlando,FL 32835 </p>
+            
+                  </div>
+                </div>
+              </div>
+            </div>
 
           
      </section>
@@ -200,6 +237,7 @@
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
           <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
           <script src="./assets/js/script.js"></script>
+          <script src="./assets/js/maps.js"></script>
 
        
         </body>
