@@ -1,6 +1,7 @@
 # Orlando Munchies
 ## Purpose
-App which allows the user to search for restaurants in the Orlando area
+The purpose of this application is to help consumers in the Orlando, Florida area select certain types of food based off their preference. For example, if someone is interested pizza, then the app will populate with pizza options within Orlando.
+
 
 ## Contents
 1. [Features](#features)
@@ -9,7 +10,8 @@ App which allows the user to search for restaurants in the Orlando area
 4. [Contributions](#contributions)
 
 ## Features
-* Find budget restaurants in the Orlando area
+* Find restaurants with a certain user preference and budget in the Orlando area.
+* Map location of restaurants
 
 ## Built With
 * HTML5
